@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css files/style.css" />
+    <link rel="stylesheet" href="css files/utils.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>To-Do list</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title flex-center">
+        <h1 class="text-center color-white">Welcome to To-do list</h1>
+        <i class="fa-solid fa-book color-white icon"></i>
+      </div>
+      <div class="to-do flex-col">
+        <div class="add flex-col">
+          <input type="text" name="title" id="title" placeholder="Add Title" />
+          <textarea
+            name="desc"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Enter description"
+          ></textarea>
+        </div>
+        <div class="add-btn">
+          <button class="btn color-white pos">Add Note</button>
+        </div>
+        <h1 class="text-center color-white">Added Notes</h1>
+        <div class="added">
+          <div class="list-added flex-center">
+            <div class="large-col get-title"> <h2><i>List Added</i></h2></div>
+            <div class="small-col action"><h2><i>Delete</i></h2></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="notification">
+      <span class="not-message">notification message</span>
+      <button class="close btn">Close</button>
+    </div>
+    <div class="footer">
+      <p class="text-center color-white bg-black">
+        copyright &copy ARehmanGujjar
+      </p>
+    </div>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
