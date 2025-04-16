@@ -17,4 +17,4 @@ Deployed at: [https://todo-app-using-react-seven.vercel.app/](https://todo-app-u
 ## Installation:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/todo-app.git
+   git clone https://github.com/ARehmanGujjar/to-do-list.git
